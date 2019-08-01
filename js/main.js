@@ -1,0 +1,4 @@
+// JavaScript Document
+	alert('asasas');
+
+

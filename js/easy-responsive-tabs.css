@@ -1,0 +1,207 @@
+@font-face {
+    font-family: 'latobold';
+    src: url('../fonts/Lato-Bol_0-webfont.eot');
+    src: url('../fonts/Lato-Bol_0-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Lato-Bol_0-webfont.woff2') format('woff2'),
+         url('../fonts/Lato-Bol_0-webfont.woff') format('woff'),
+         url('../fonts/Lato-Bol_0-webfont.ttf') format('truetype'),
+         url('../fonts/Lato-Bol_0-webfont.svg#latobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'latoregular';
+    src: url('../fonts/Lato-Reg_0-webfont.eot');
+    src: url('../fonts/Lato-Reg_0-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Lato-Reg_0-webfont.woff2') format('woff2'),
+         url('../fonts/Lato-Reg_0-webfont.woff') format('woff'),
+         url('../fonts/Lato-Reg_0-webfont.ttf') format('truetype'),
+         url('../fonts/Lato-Reg_0-webfont.svg#latoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+	font-family: 'Sitka Display';
+	src: url('../fonts/SitkaDisplay.eot');
+	src: url('../fonts/SitkaDisplay.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/SitkaDisplay.woff') format('woff'),
+		url('../fonts/SitkaDisplay.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+#bg {
+	/*width: 99.3vw;
+	position: relative;
+	left: 50%;
+	right: 50%;
+	margin-left: -50vw;
+	margin-right: -50vw;*/
+	margin: 0 15px;
+}
+#bg .vw-page-title-section__title-box {
+    padding: 50px 25px 50px 25px;
+    text-align: center;
+    background-color: transparent;
+}
+#bg .vw-page-title-section__title {
+    margin-top: 0;
+    margin-bottom: 0px;
+    color: #fff;
+	text-align: left;
+	font-family: 'latobold';
+	font-size:30px;
+	text-transform:uppercase;
+}
+.authdetail{font-family: 'latoregular'; font-size:18px; text-transform:uppercase; color: #fff;
+    text-align: left;}
+	
+#bg .row {
+    display: table;
+    width: 100%;
+}	
+.col3{display: table-cell;
+    width: 150px;
+    vertical-align: top; text-align: left;}
+.col4{display: table-cell;
+    width: 51%;
+    vertical-align: bottom; padding-left: 10px;}
+.col5{display: table-cell;
+    vertical-align: bottom; text-align:right; min-width:50px;}
+
+
+.authimg img{border-radius: 130px;
+    width: 130px;
+    height: 130px;}
+
+header.vw-site-header {
+    margin-bottom: 1px;
+}
+.indexpage .vw-site-social-profile a{
+    background: #fff;
+    border-radius: 70px;
+    width: 70px;
+    height: 70px;
+	margin-left: 17px !important;
+	text-decoration:none;
+}
+.indexpage .vw-site-social-profile a:hover{text-decoration:none;}
+.indexpage .vw-site-social-profile-icon .vw-icon {
+    display: table;
+    width: 100%;
+    padding: 0;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+}
+.indexpage .vw-site-social-profile i.vw-icon:before {
+    font-size: 30px;
+    color: #213364;
+    display: table-cell;
+    vertical-align: middle;
+}
+.indexpage .vw-site-social-profile i.icon-social-linkedin:before {
+    font-size: 33px;
+}
+
+ul#filter {list-style: none;
+    margin-left: 0;
+    width: 100%;
+    margin-top: 0;
+    display: block;
+    margin-bottom: 0;
+    padding-bottom: 0;
+	position: relative;
+    top: -33px;
+	padding-left: 1px;}
+ul#filter li { 
+	text-transform: uppercase;
+	background: transparent;
+    display: inline-block;
+    padding: 6px 33px;
+	border-radius: 9px 9px 0 0;
+}
+ul#filter li:last-child {/* border-right: none; margin-right: 0; padding-right: 0; */}
+ul#filter a {
+    color: #fff;
+    text-decoration: none;
+    font-family: latoregular;
+    font-size: 12px;
+}
+ul#filter li.current{background:#fff;}
+ul#filter li.current a, ul#filter a:hover {color: #0096d6; }
+
+ul#portfolio { float: left; list-style: none; margin-left: 0; width: 100%; margin-top: 0;}
+ul#portfolio li { 
+    margin: 0 0 40px 0;
+    height: auto;
+    list-style: none;
+}
+ul#portfolio a { /*display: block; width: 100%;*/ }
+ul#portfolio a:hover { text-decoration: none; }
+ul#portfolio img { /*border: 1px solid #dedede; display: block; padding-bottom: 5px; */}
+
+
+.vw-post-box__excerpt {
+    color: #555;
+}
+.mc4wp-form-basic.formob{display:none;}
+.fordesk{display:block;}
+.formobb{display:none;  margin-top: 0px;}
+
+/*Here your can change the breakpoint to set the accordion, when screen resolution changed*/
+@media only screen and (max-width: 1000px) {
+
+	
+	#bg{height: auto !important;}
+	#bg .row {
+		display: block;
+		width: 100%;
+		text-align: left;
+	}
+	.col3 {
+		display: block;
+		text-align: center;
+		margin: 0 auto;
+	}
+	.col4 {
+		display: block;
+		text-align: center;
+		margin: 0 auto;
+		width: auto;
+	}
+	.col5 {
+		display: block;
+		text-align: center;
+		margin: 30px auto;
+	}
+	.vw-page-content {
+		margin-top: 30px;
+	}
+	ul#filter {display:none; padding-left: 0;}
+	/*ul#portfolio li{display:block !important; visibility: visible !important;}*/
+	ul#portfolio{padding-left: 0;}
+	
+	#bg .vw-page-title-section__title, .authdetail {
+		text-align: center
+	}
+	.vw-block-grid-item {
+    	padding: 15px 0;
+	}
+	.mc4wp-form-basic.formob{display:block; margin: 0 0 17px 0;}
+	.fordesk{display:none;}
+	.formobb{display:block; margin: 12px auto; text-align: center;}
+	
+	#portfolio .vw-block-grid-xs-1 > .vw-block-grid-item:nth-of-type(n+1) {
+		clear: both;
+	}
+	#portfolio .vw-block-grid-xs-1 > .vw-block-grid-item:nth-of-type(n+1) {
+		clear: both;
+	}
+	#portfolio .vw-block-grid-sm-2>.vw-block-grid-item {
+		width: 100%;
+	}
+
+}
+
