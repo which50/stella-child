@@ -1,1 +1,2 @@
 # stella-child
+Child theme
