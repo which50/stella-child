@@ -15,6 +15,7 @@
 
 <script type="text/javascript">
 jQuery(document).ready(function ($){
+	console.log('TEST COMMIT');
 	$('#download-btn, #download-btn2').click(function(){
 		var link = document.createElement('a');
 		link.href = $(this).attr("src"); // use realtive url 
