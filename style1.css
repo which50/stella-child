@@ -2099,12 +2099,12 @@ input[type=button],  input[type=submit],  button,  .vw-button,  .woocommerce a.b
  * -------------------------------------------------------------------------- */
 
 .vw-post-share-box {
-	margin-bottom: 30px;
-	padding-bottom: 15px;
-	border-bottom: 1px solid #EFEFEF;
+	display: table;
+	margin: 30px auto 40px;
 }
 .vw-post-share-box .vw-post-share-box-button {
 	display: inline-block;
+	margin: 0 2px;
 	padding: 4px 10px 4px 4px;
 	color: #FFFFFF;
 	text-decoration: none;
