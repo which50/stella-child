@@ -197,6 +197,7 @@ body.vw-site-layout-boxed { border-top: 4px solid #012b65; }
 
     .vw-menu-main-wrapper .vw-menu-location-main {
         font-weight: 700;
+        text-align: left;
         text-transform: uppercase;
     }
 
@@ -208,8 +209,6 @@ body.vw-site-layout-boxed { border-top: 4px solid #012b65; }
     }
 
     .vw-menu-location-main .menu-item-subscribe .main-menu-link {
-        padding-left: 20px;
-        padding-right: 20px;
         background: #e75900;
         border-radius: 3px;
         color: #fff;
