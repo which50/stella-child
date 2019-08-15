@@ -19,7 +19,7 @@ ga('send', 'pageview');
 </head>
 <body id="site-top" <?php body_class(); ?>>
 <!-- Site Wrapper -->
-<div class="vw-site-wrapper marto">
+<div class="vw-site-wrapper">
 <?php vw_the_site_top_bar(); ?>
 <?php get_template_part( '/templates/site-header', vw_get_theme_option( 'site_header_layout' ) ); ?>
 <?php do_action( 'vw_action_site_header' ); ?>

@@ -168,4 +168,51 @@ a.button.auth-read:hover{text-decoration:none;}
 
 .single h1.vw-page-title-section__title {
     font-size: 1.953em;
-}	
+}
+
+/*-- NEW UPDATES --*/
+
+.vw-top-bar { display: none; }
+
+body.postid-49699 .vw-post-content { font-size: 16px; }
+
+body.vw-site-layout-boxed { border-top: 4px solid #012b65; }
+
+@media (min-width: 768px) {
+    body.vw-site-layout-boxed .vw-site-wrapper { margin: 0 auto; }
+
+    .vw-site-header > .container { display: none; }
+
+    .vw-menu-main-inner { border: 0; }
+
+    .vw-menu-type-mega-post { margin: 0; }
+
+    .vw-site-header { margin: 10px 0; }
+
+    .vw-menu-location-main {
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    .vw-menu-location-main .main-menu-item:first-child a { padding-left: 0; }
+
+    .vw-menu-location-main .main-menu-item + .main-menu-item .main-menu-link:before {
+        top: 15px;
+        height: 12px;
+    }
+
+    .vw-page-title-section { margin-top: 0; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
