@@ -189,7 +189,7 @@ body.vw-site-layout-boxed { border-top: 4px solid #012b65; }
 
     .vw-site-header { margin: 10px 0; }
 
-    .vw-menu-location-main {
+    .vw-menu-main .vw-menu-location-main {
         font-weight: 700;
         text-transform: uppercase;
     }
