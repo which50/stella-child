@@ -188,19 +188,24 @@ body.vw-site-layout-boxed { border-top: 4px solid #012b65; }
 
     .vw-menu-type-mega-post { margin: 0; }
 
-    .vw-site-header { margin: 10px 0; }
+    .vw-site-header { margin: 15px 0; }
 
     .vw-sticky-wrapper.is-sticky .vw-sticky {
         padding: 10px 0;
         background: #fff;
     }
 
-    .vw-menu-main .vw-menu-location-main {
+    .vw-menu-main-wrapper .vw-menu-location-main {
         font-weight: 700;
         text-transform: uppercase;
     }
 
-    .vw-menu-location-main .main-menu-item:first-child a { padding-left: 0; }
+    .vw-menu-location-main .main-menu-item:first-child a {
+        padding-left: 0;
+        background: transparent url('https://staging.which-50.com/wp-content/uploads/2016/11/Which50_hor_new_large.png') -4px 0 / 200px no-repeat;
+        text-indent: -999em;
+        width: 205px;
+    }
 
     .vw-menu-location-main .menu-item-subscribe .main-menu-link {
         padding-left: 20px;
@@ -210,9 +215,15 @@ body.vw-site-layout-boxed { border-top: 4px solid #012b65; }
         color: #fff;
     }
 
+    .vw-menu-location-main .menu-item-subscribe .main-menu-link:hover {
+        background: #012b65;
+        color: #fff;
+    }
+
     .vw-menu-location-main .main-menu-item + .main-menu-item .main-menu-link:before {
         top: 15px;
         height: 12px;
+        transform: none;
     }
 
     .vw-page-title-section { margin-top: 0; }
