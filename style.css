@@ -191,7 +191,7 @@ body.vw-site-layout-boxed { border-top: 4px solid #012b65; }
     .vw-site-header { margin: 15px 0; }
 
     .vw-sticky-wrapper.is-sticky .vw-sticky {
-        padding: 10px 0;
+        padding: 15px 0;
         background: #fff;
         box-shadow: 0 1px 5px #ddd;
     }
