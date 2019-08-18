@@ -238,15 +238,20 @@ body.vw-site-layout-boxed { border-top: 4px solid #012b65; }
 @media (min-width: 768px) and (max-width: 1200px) {
     .vw-menu-main-wrapper .vw-menu-location-main { font-size: 12px; }
 
-    .vw-menu-location-main .menu-item-subscribe .main-menu-link { padding: 10px 12px; }
+    .vw-menu-location-main .menu-item-subscribe .main-menu-link { padding: 10px; }
 
     .vw-menu-location-main .main-menu-item:first-child a {
         background-size: 150px;
         background-position: 0 50%;
-        width: 158px;
+        width: 156px;
     }
 
-    .vw-menu-location-main .main-menu-item + .main-menu-item .main-menu-link:before { height: 10px; }
+    .vw-menu-location-main .main-menu-item + .main-menu-item .main-menu-link:before {
+        margin-left: -13px;
+        height: 10px;
+    }
+
+    .vw-menu-location-main .main-menu-item:nth-child(n+6):not(:last-child) { display: none; }
 }
 
 
