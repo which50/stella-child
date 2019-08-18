@@ -235,6 +235,10 @@ body.vw-site-layout-boxed { border-top: 4px solid #012b65; }
     .vw-page-title-section { margin-top: 0; }
 }
 
+@media (min-width: 768px) and (max-width: 992px) {
+    .vw-menu-location-main .main-menu-item:nth-child(n+6):not(:last-child) { display: none; }
+}
+
 @media (min-width: 768px) and (max-width: 1200px) {
     .vw-menu-main-wrapper .vw-menu-location-main { font-size: 12px; }
 
@@ -250,8 +254,6 @@ body.vw-site-layout-boxed { border-top: 4px solid #012b65; }
         margin-left: -13px;
         height: 10px;
     }
-
-    .vw-menu-location-main .main-menu-item:nth-child(n+6):not(:last-child) { display: none; }
 }
 
 
