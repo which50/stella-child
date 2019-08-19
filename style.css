@@ -197,6 +197,7 @@ body.vw-site-layout-boxed { border-top: 4px solid #012b65; }
     }
 
     .vw-menu-main-wrapper .vw-menu-location-main {
+        font-family: "Open Sans", Arial, serif;
         font-weight: 700;
         text-align: left;
         text-transform: uppercase;
