@@ -693,11 +693,12 @@ if ( ! function_exists( 'vw_the_post_meta_large' ) ) {
 
 if ( ! function_exists( 'vw_build_post_slider_query' ) ) {
 	function vw_build_post_slider_query( $args=array() ) {
+		echo '<h1>Test</h1>';
 		$default = array(
 			'template' => 'large',
 			'cat' => null,
 			'posts_order' => 'latest_posts', // latest_posts, latest_featured, latest_reviews, most_review_scores
-			'number_of_post' => 15,
+			'number_of_post' => 5,
 			'before' => '',
 			'after' => '',
 		);
