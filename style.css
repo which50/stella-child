@@ -174,7 +174,7 @@ a.button.auth-read:hover{text-decoration:none;}
 
 .vw-top-bar { display: none; }
 
-body.postid-49699 .vw-post-content { font-size: 16px; }
+body.single .vw-post-content { font-size: 16px; }
 
 body.vw-site-layout-boxed { border-top: 4px solid #012b65; }
 
@@ -256,7 +256,3 @@ body.vw-site-layout-boxed { border-top: 4px solid #012b65; }
         height: 10px;
     }
 }
-
-
-
-

@@ -697,7 +697,7 @@ if ( ! function_exists( 'vw_build_post_slider_query' ) ) {
 			'template' => 'large',
 			'cat' => null,
 			'posts_order' => 'latest_posts', // latest_posts, latest_featured, latest_reviews, most_review_scores
-			'number_of_post' => 5,
+			'number_of_post' => 15,
 			'before' => '',
 			'after' => '',
 		);
