@@ -772,8 +772,6 @@ if ( ! function_exists( 'vw_the_post_slider' ) ) {
 			if ( ! empty( $args['before'] ) ) {
 				echo $args['before'];
 			}
-
-			echo '<!-- CAROUSEL CONTENT -->';
 			
 			get_template_part( 'templates/post-loop/loop-slider', $args['template'] );
 
