@@ -218,11 +218,11 @@ body.vw-site-layout-boxed { border-top: 4px solid #012b65; }
     font-family: 'Times';
 }
 
-.tabs .spinner { z-index: -1; }
+.tabs .spinner { z-index: 0; }
 
 .tab label {
     position: absolute;
-    top: -39px;
+    top: -41px;
     padding: 10px;
     border-bottom: 3px solid #012b65;
     cursor: pointer;
@@ -235,6 +235,8 @@ body.vw-site-layout-boxed { border-top: 4px solid #012b65; }
 .tab label[for="tab-3"] { right: 0; }
 
 .tab ol {
+    position: relative;
+    z-index: 1;
     margin: 0;
     padding: 0;
     background: #fff;
