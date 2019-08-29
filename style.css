@@ -170,8 +170,11 @@ a.button.auth-read:hover{text-decoration:none;}
     font-size: 1.953em;
 }
 
-/*-- NEW UPDATES --*/
+/*
+ * NEW UPDATES
+ */
 
+/*-- LAYOUT --*/
 .vw-top-bar { display: none; }
 
 body.single .vw-post-content { font-size: 16px; }
@@ -211,6 +214,13 @@ body.vw-site-layout-boxed { border-top: 4px solid #012b65; }
     }
 }
 
+/*-- FOOTER --*/
+.vw-bottom-bar__placeholder--right {
+    float: none;
+    position: relative;
+}
+
+/*-- TABS --*/
 .tabs {
     position: relative;   
     clear: both;
@@ -308,8 +318,18 @@ body.vw-site-layout-boxed { border-top: 4px solid #012b65; }
     display: block;
 }
 
+/*-- MEDIA QUERIES --*/
 @media (min-width: 768px) {
-    body.vw-site-layout-boxed .vw-site-wrapper { margin: 0 auto; }
+    body.vw-site-layout-boxed .vw-site-wrapper {
+        margin: 0 auto;
+        max-width: none;
+    }
+
+    body.vw-site-layout-boxed .vw-site-wrapper > *:not(footer) {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 750px;
+    }
 
     .vw-site-header > .container,
     .vw-menu-location-main .main-menu-item + .menu-item-subscribe .main-menu-link:before { display: none; }
@@ -387,5 +407,36 @@ body.vw-site-layout-boxed { border-top: 4px solid #012b65; }
     .vw-menu-location-main .main-menu-item + .main-menu-item .main-menu-link:before {
         margin-left: -13px;
         height: 10px;
+    }
+}
+
+/* Desktop */
+@media (min-width: 992px) {
+    body.vw-site-layout-boxed .vw-site-wrapper > *:not(footer)  {
+        max-width: 1000px;
+    }
+
+    .vw-bottom-bar__placeholder--right {
+        float: right;
+        position: relative;
+        top: 4px;
+        text-align: right;
+        color: #fff;
+        letter-spacing: 0;
+        text-transform: none;
+    }
+
+    .vw-copyright {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 13px;
+        letter-spacing: 0;
+        text-transform: none;
+    }
+}
+
+/* Wide desktop */
+@media (min-width: 1200px) {
+    body.vw-site-layout-boxed .vw-site-wrapper > *:not(footer)  {
+        max-width: 1200px;
     }
 }
