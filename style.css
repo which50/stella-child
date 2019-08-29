@@ -343,7 +343,10 @@ body.vw-site-layout-boxed { border-top: 4px solid #012b65; }
 
     .vw-menu-location-main .main-menu-link { padding: 10px 12px; }
 
-    .vw-menu-location-main .menu-item-subscribe { float: right; }
+    .vw-menu-location-main .menu-item-subscribe {
+        position: absolute;
+        right: 15px;
+    }
 
     .vw-menu-location-main .menu-item-subscribe .main-menu-link {
         padding: 10px 20px;
