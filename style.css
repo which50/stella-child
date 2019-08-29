@@ -425,6 +425,8 @@ footer .vw-copyright {
         max-width: 1000px;
     }
 
+    footer .vw-bottom-bar__placeholder--left { float: left; }
+
     footer .vw-bottom-bar__placeholder--right {
         float: right;
         position: relative;
