@@ -218,6 +218,8 @@ body.vw-site-layout-boxed { border-top: 4px solid #012b65; }
     font-family: 'Times';
 }
 
+.widget-title + .tabs { margin-top: 50px; }
+
 .tabs .spinner { z-index: 0; }
 
 .tab label {
