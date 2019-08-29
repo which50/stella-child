@@ -215,9 +215,16 @@ body.vw-site-layout-boxed { border-top: 4px solid #012b65; }
 }
 
 /*-- FOOTER --*/
-.vw-bottom-bar__placeholder--right {
+footer .vw-bottom-bar__placeholder--right {
     float: none;
     position: relative;
+}
+
+footer .vw-copyright {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    letter-spacing: 0;
+    text-transform: none;
 }
 
 /*-- TABS --*/
@@ -387,6 +394,8 @@ body.vw-site-layout-boxed { border-top: 4px solid #012b65; }
     }
 
     .vw-page-title-section { margin-top: 0; }
+
+    footer .vw-bottom-bar__placeholder--left { float: none; }
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
@@ -416,19 +425,12 @@ body.vw-site-layout-boxed { border-top: 4px solid #012b65; }
         max-width: 1000px;
     }
 
-    .vw-bottom-bar__placeholder--right {
+    footer .vw-bottom-bar__placeholder--right {
         float: right;
         position: relative;
         top: 4px;
         text-align: right;
         color: #fff;
-        letter-spacing: 0;
-        text-transform: none;
-    }
-
-    .vw-copyright {
-        font-family: 'Open Sans', sans-serif;
-        font-size: 13px;
         letter-spacing: 0;
         text-transform: none;
     }
