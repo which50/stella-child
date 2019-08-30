@@ -175,6 +175,8 @@ a.button.auth-read:hover{text-decoration:none;}
  */
 
 /*-- LAYOUT --*/
+em { color: inherit; }
+
 .vw-top-bar { display: none; }
 
 body.single .vw-post-content { font-size: 16px; }
