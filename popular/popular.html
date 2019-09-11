@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Which 50 Most Popular List</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i|Playfair+Display:400,400i,700,700i&display=swap" rel="stylesheet" />
+	<link href="dist/css/popular.min.css" rel="stylesheet" media="screen" />
+</head>
+<body>
+
+<h1>Most Popular</h1>
+<div id="most-popular-list" class="tabs">
+	<div class="tab">
+		<input type="radio" id="tab-1" name="tab-group-1" checked>
+		<label id="tab-label-1" for="tab-1">Week</label>
+
+		<div class="content">
+			<ol id="most-popular-week"></ol>
+		</div> 
+	</div>
+
+	<div class="tab">
+		<input type="radio" id="tab-2" name="tab-group-1">
+		<label id="tab-label-2" for="tab-2">Month</label>
+
+		<div class="content">
+			<ol id="most-popular-month"></ol>
+		</div> 
+	</div>
+
+	<div class="tab">
+		<input type="radio" id="tab-3" name="tab-group-1">
+		<label id="tab-label-3" for="tab-3">All Time</label>
+
+		<div class="content">
+			<ol id="most-popular-all-time"></ol>
+		</div> 
+	</div>
+	<div class="spinner"></div>
+</div>
+
+<script async src="dist/js/popular.min.js"></script>
+
+</body>
+</html>
