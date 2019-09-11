@@ -103,7 +103,8 @@ require( '../scss/popular.scss' );
 	function authorise() {
 		var authData = {
 				client_id: config.clientID,
-				scope: config.scopes
+				scope: config.scopes,
+				immediate: true
 			};
 
 		var i = setInterval(function() {

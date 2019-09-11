@@ -1,0 +1,56 @@
+{
+  "name": "which-50",
+  "version": "0.0.1",
+  "description": "Which 50 scripts",
+  "dependencies": {
+    "autoprefixer": "^9.3.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "echo-js": "^1.7.3",
+    "expose-loader": "^0.7.4",
+    "fontfaceobserver": "^2.1.0",
+    "googleapis": "^42.0.0",
+    "jquery": "^3.2.1",
+    "jshint-loader": "^0.8.4",
+    "load-resource": "^1.1.10",
+    "path": "^0.12.7",
+    "postcss-loader": "^3.0.0",
+    "promise-polyfill": "8.1.0",
+    "webfontloader": "^1.6.28"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "copy-webpack-plugin": "^4.6.0",
+    "css-loader": "^0.28.7",
+    "eslint": "^4.14.0",
+    "eslint-loader": "^1.9.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.6",
+    "jshint": "^2.9.5",
+    "mini-css-extract-plugin": "^0.4.1",
+    "node-sass": "^4.7.2",
+    "resolve-url-loader": "^2.2.1",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.19.1",
+    "url-loader": "^0.6.2",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.1.0",
+    "webpack-merge": "^4.1.4"
+  },
+  "scripts": {
+    "dev": "webpack -p --mode development",
+    "start": "webpack -p --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test-disabled": "echo \"Error: no test specified\" && exit 1",
+    "lint": "jshint .",
+    "validate": "npm ls"
+  },
+  "pre-commit": [
+    "lint",
+    "validate",
+    "test"
+  ],
+  "author": "Martin Ilagan <martin.ilagan@gmail.com>",
+  "license": "ISC"
+}
