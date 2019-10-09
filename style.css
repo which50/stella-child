@@ -371,6 +371,14 @@ footer .vw-copyright {
         width: 205px;
     }
 
+    /* Search */
+    .vw-menu-location-main .vw-instant-search-buton { background-color: transparent; }
+
+    .vw-menu-location-main .vw-instant-search-buton .icon-entypo-search:before {
+        margin-left: 0;
+        font-size: 15px;
+    }
+
     .vw-menu-location-main .main-menu-link { padding: 10px 12px; }
 
     .vw-menu-location-main .menu-item-subscribe {
@@ -402,13 +410,15 @@ footer .vw-copyright {
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
-    .vw-menu-location-main .main-menu-item:nth-child(n+6):not(:last-child) { display: none; }
+    .vw-menu-location-main .main-menu-item:nth-child(n+5):not(:last-child):not(.vw-instant-search-buton) { display: none; }
 }
 
 @media (min-width: 768px) and (max-width: 1200px) {
     .vw-menu-main-wrapper .vw-menu-location-main { font-size: 12px; }
 
     .vw-menu-location-main .menu-item-subscribe .main-menu-link { padding: 10px; }
+
+    .vw-menu-location-main .vw-instant-search-buton .icon-entypo-search:before { font-size: 13px; }
 
     .vw-menu-location-main .main-menu-item:first-child a {
         background-size: 150px;
