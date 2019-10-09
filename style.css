@@ -372,7 +372,7 @@ footer .vw-copyright {
     }
 
     /* Search */
-    .vw-menu-location-main .vw-instant-search-buton { background-color: transparent; }
+    .vw-menu-location-main .vw-instant-search-buton:hover { background-color: transparent; }
 
     .vw-menu-location-main .vw-instant-search-buton .icon-entypo-search:before {
         margin-left: 0;
